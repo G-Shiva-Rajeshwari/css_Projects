@@ -1,0 +1,39 @@
+body
+{
+    margin: 25vmin;
+    background-color: #1f1d1d;
+    color: #ffff;
+    text-align: center;
+    line-height: 50px;
+}
+
+.btn
+{
+   background-color: #1f1d1d;
+   padding: 20px;
+   font-family:inherit;
+   font-size: 1.1em;
+   letter-spacing: 1.5px;
+   color: #dfd6d6;
+   border: none 
+}
+
+.btn_border:hover .btn
+{
+    color: #ffff;
+}
+
+.btn_border
+{
+  display: inline-block;
+  margin: 30px;
+  padding: 10px 60px;
+  border: 2px solid;
+  border-image: linear-gradient(115Deg, red, yellow) 1;
+}
+
+.btn_border:hover
+{
+    transform: scale(1.1);
+    border-image: linear-gradient(115Deg, yellow, red) 1;
+}
