@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.rings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 70vh;
+
+}
+
+.ring{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#inner1{
+    width: 55%;
+    height: 55%;
+    background-color: black;
+}
+
+#inner2{
+    width: 75%;
+    height: 75%;
+    background-color: rgb(40, 128, 251);
+}
+
+#inner3{
+    width: 70%;
+    height: 70%;
+    background-color: red;
+}
+
+#inner4{
+    width: 55%;
+    height: 55%;
+    background-color: yellow;
+}
